@@ -32,10 +32,8 @@
   /* border: 2px solid red; */
   display: flex;
   margin: 100px;
-  min-width: 800px;
-  max-width: 1200px;
-  overflow: auto;
-  ;
+  min-width: auto;
+ 
 }
 
 /* .card--img {
@@ -45,6 +43,7 @@
 .card--text {
   /* border: 20px solid yellow; */
   padding: 20px;
+ 
 }
 
 .card--img>img {
@@ -90,4 +89,9 @@
 .card--text--para {
   font-size: 15px;
   font-weight: 400;
+  max-width: 800px;
+  overflow: auto;
+  max-height: 200px;
+  min-height: 150px;
+  
 }
